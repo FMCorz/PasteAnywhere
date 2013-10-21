@@ -1,0 +1,47 @@
+[
+    {
+        "caption": "Paste Anywhere: To Pastie",
+        "command": "paste_this",
+        "args": { "to": "pastie", "private": false }
+    },
+    {
+        "caption": "Paste Anywhere: For a day",
+        "command": "paste_this",
+        "args": { "to": "mozilla", "ttl": 86400 }
+    },
+    {
+        "caption": "Paste Anywhere: Privately",
+        "command": "paste_this",
+        "args": { "private": true }
+    },
+    {
+        "caption": "Paste Anywhere: To new file",
+        "command": "paste_this",
+        "args": { "to": "raw", "result_sent_to": "newfile", "set_identifiers": false }
+    }
+
+    // This is an example of the different properties that can be used
+    // when defining your own. Not all pasters are compatible with each
+    // properties. Refer to the code and documentation of PyPasteLib to
+    // find out what you can do with each one.
+
+    // ,
+    // {
+    //     "caption": "Paste Anywhere: To my favourite",
+    //     "command": "paste_this",
+    //     "args": {
+    //         "to": "pastebin",
+    //         "set_identifiers": true,
+    //         "result_sent_to": "clipboard",
+    //
+    //         "settings": {
+    //             "apikey": "abcdefg"
+    //         },
+    //         "poster": "Me",
+    //         "description": "Paste by me",
+    //         "ttl": 60,
+    //         "private": false,
+    //         "password": "yay"
+    //     }
+    // }
+]
